@@ -21,33 +21,34 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt58wifi/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
     vendor/samsung/gt58wifi/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/samsung/gt58wifi/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-    vendor/samsung/gt58wifi/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-    vendor/samsung/gt58wifi/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
+    vendor/samsung/gt58wifi/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb
+
+PRODUCT_COPY_FILES += \
     vendor/samsung/gt58wifi/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
-    vendor/samsung/gt58wifi/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+    vendor/samsung/gt58wifi/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gt58wifi/proprietary/lib/libarcsoft_bestphoto_select.so:system/lib/libarcsoft_bestphoto_select.so \
+    vendor/samsung/gt58wifi/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
+    vendor/samsung/gt58wifi/proprietary/lib/libarcsoft_selfie_camera_lite.so:system/lib/libarcsoft_selfie_camera_lite.so \
     vendor/samsung/gt58wifi/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
     vendor/samsung/gt58wifi/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
-    vendor/samsung/gt58wifi/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
-    vendor/samsung/gt58wifi/proprietary/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
-    vendor/samsung/gt58wifi/proprietary/lib/lib_SamsungRec_V04013.so:system/lib/lib_SamsungRec_V04013.so \
-    vendor/samsung/gt58wifi/proprietary/lib/lib_SoundAlive_SRC384_ver300.so:system/lib/lib_SoundAlive_SRC384_ver300.so \
-    vendor/samsung/gt58wifi/proprietary/lib/lib_SoundBooster_ver610.so:system/lib/lib_SoundBooster_ver610.so \
-    vendor/samsung/gt58wifi/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
     vendor/samsung/gt58wifi/proprietary/lib/libaec_algo_front.so:system/lib/libaec_algo_front.so \
     vendor/samsung/gt58wifi/proprietary/lib/libaec_algo_rear.so:system/lib/libaec_algo_rear.so \
     vendor/samsung/gt58wifi/proprietary/lib/libaf_algo_rear.so:system/lib/libaf_algo_rear.so \
-    vendor/samsung/gt58wifi/proprietary/lib/libaudio_soundtrigger.so:system/lib/libaudio_soundtrigger.so \
     vendor/samsung/gt58wifi/proprietary/lib/libawb_algo_front.so:system/lib/libawb_algo_front.so \
     vendor/samsung/gt58wifi/proprietary/lib/libawb_algo_rear_al.so:system/lib/libawb_algo_rear_al.so \
-    vendor/samsung/gt58wifi/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/gt58wifi/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
     vendor/samsung/gt58wifi/proprietary/lib/libmmcamera_cac2_lib_13M.so:system/lib/libmmcamera_cac2_lib_13M.so \
     vendor/samsung/gt58wifi/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-    vendor/samsung/gt58wifi/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
-    vendor/samsung/gt58wifi/proprietary/lib/libsamsungSoundbooster_ext.so:system/lib/libsamsungSoundbooster_ext.so \
-    vendor/samsung/gt58wifi/proprietary/lib/libsamsungVoipResampler.so:system/lib/libsamsungVoipResampler.so \
-    vendor/samsung/gt58wifi/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
-    vendor/samsung/gt58wifi/proprietary/lib/libtfa9895.so:system/lib/libtfa9895.so \
+	vendor/samsung/gt58wifi/proprietary/vendor/lib/libactuator_dw9804_rossa_camera.so:system/vendor/lib/libactuator_dw9804_rossa_camera.so \
+    vendor/samsung/gt58wifi/proprietary/vendor/lib/libactuator_dw9804_rossa_camcorder.so:system/vendor/lib/libactuator_dw9804_rossa_camcorder.so \
+    vendor/samsung/gt58wifi/proprietary/vendor/lib/libchromatix_sr544_common.so:system/vendor/lib/libchromatix_sr544_common.so \
+    vendor/samsung/gt58wifi/proprietary/vendor/lib/libchromatix_sr544_default_video.so:system/vendor/lib/libchromatix_sr544_default_video.so \
+    vendor/samsung/gt58wifi/proprietary/vendor/lib/libchromatix_sr544_panorama.so:system/vendor/lib/libchromatix_sr544_panorama.so \
+    vendor/samsung/gt58wifi/proprietary/vendor/lib/libchromatix_sr544_preview.so:system/vendor/lib/libchromatix_sr544_preview.so \
+    vendor/samsung/gt58wifi/proprietary/vendor/lib/libchromatix_sr544_snapshot.so:system/vendor/lib/libchromatix_sr544_snapshot.so \
+    vendor/samsung/gt58wifi/proprietary/vendor/lib/libchromatix_sr544_zslshot.so:system/vendor/lib/libchromatix_sr544_zslshot.so \
     vendor/samsung/gt58wifi/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/gt58wifi/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/gt58wifi/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
