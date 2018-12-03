@@ -21,7 +21,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt58wifi/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
     vendor/samsung/gt58wifi/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/samsung/gt58wifi/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-    vendor/samsung/gt58wifi/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb
+    vendor/samsung/gt58wifi/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+	vendor/samsung/gt58wifi/proprietary/etc/Tfa9895.cnt:system/etc/Tfa9895.cnt
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/gt58wifi/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
@@ -41,6 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt58wifi/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
     vendor/samsung/gt58wifi/proprietary/lib/libmmcamera_cac2_lib_13M.so:system/lib/libmmcamera_cac2_lib_13M.so \
     vendor/samsung/gt58wifi/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+	vendor/samsung/gt58wifi/proprietary/lib/libtfa9895.so:system/lib/libtfa9895.so \
 	vendor/samsung/gt58wifi/proprietary/vendor/lib/libactuator_dw9804_rossa_camera.so:system/vendor/lib/libactuator_dw9804_rossa_camera.so \
     vendor/samsung/gt58wifi/proprietary/vendor/lib/libactuator_dw9804_rossa_camcorder.so:system/vendor/lib/libactuator_dw9804_rossa_camcorder.so \
     vendor/samsung/gt58wifi/proprietary/vendor/lib/libchromatix_sr544_common.so:system/vendor/lib/libchromatix_sr544_common.so \
